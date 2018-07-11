@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_padding">
+
+    <ImageView
+        android:id="@+id/image_thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/thumbnail_margin_end" />
+
+    <TextView
+        android:id="@+id/text_flower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_thumbnail"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/image_thumbnail"
+        android:textSize="@dimen/item_heading_text_size"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/text_flower"
+        android:layout_toEndOf="@+id/image_thumbnail">
+
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/price_margin_top"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/content_text_size" />
+
+        <TextView
+            android:id="@+id/text_quantity"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_price"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/content_text_size" />
+    </RelativeLayout>
+</RelativeLayout>

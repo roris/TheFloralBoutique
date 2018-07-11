@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_padding">24dp</dimen>
+    <dimen name="notice_text_size">24sp</dimen>
+    <dimen name="price_margin_top">8dp</dimen>
+    <dimen name="item_heading_text_size">18sp</dimen>
+    <dimen name="content_text_size">16sp</dimen>
+    <dimen name="caption_text_size">12sp</dimen>
+    <dimen name="total_text_size">24sp</dimen>
+    <dimen name="thumbnail_margin_end">32dp</dimen>
+    <dimen name="item_padding">8dp</dimen>
+    <dimen name="view_padding">16dp</dimen>
+    <dimen name="big_button_margin">8dp</dimen>
+    <dimen name="splitter_bottom_margin">12dp</dimen>
+    <dimen name="footer_margin_top">8dp</dimen>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_padding">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="@dimen/item_heading_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_discount_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_id"
+        android:layout_marginBottom="8dp"
+        android:textSize="@dimen/content_text_size" />
+
+
+    <TextView
+        android:id="@+id/text_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_discount_percent"
+        android:layout_marginBottom="8dp"
+        android:textSize="@dimen/content_text_size" />
+</RelativeLayout>

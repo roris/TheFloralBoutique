@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Floral Boutique</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="login_register">Login / Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="place_order">Place Order</string>
+
+    <string name="tab_cart">CART</string>
+    <string name="tab_browse">SHOP</string>
+    <string name="tab_orders">ORDERS</string>
+    <string name="tab_categories">CATEGORIES</string>
+    <string name="tab_promotions">PROMOTIONS</string>
+    <string name="tab_flowers">FLOWERS</string>
+
+    <string name="zero">0</string>
+    <string name="empty_cart">Cart is empty</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="total">Total</string>
+    <string name="login_to_view_orders">Login to view orders</string>
+    <string name="member_no_orders">You haven\'t made an order yet!</string>
+    <string name="save">SAVE</string>
+    <string name="new_">NEW</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="no_items">Nothing to display</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="from">From</string>
+    <string name="to">to</string>
+    <string name="nothing">Nothing to display</string>
+    <string name="category_name">Category Name</string>
+    <string name="no_categories">No categories found</string>
+    <string name="no_flowers_found">No flowers found</string>
+
+    <string-array name="order_status">
+        <item>Pending</item>
+        <item>Ready</item>
+        <item>Issued</item>
+        <item>Canceled</item>
+    </string-array>
+</resources>
